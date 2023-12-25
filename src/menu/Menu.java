@@ -20,7 +20,7 @@ public class Menu {
     }
 
     private int getChoice() {
-        System.out.print("Enter your choise");
+        System.out.print("Enter your choice: ");
         int choice = scanner.nextInt();
         scanner.nextLine();
         return choice - 1;
